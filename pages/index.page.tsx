@@ -12,7 +12,7 @@ function Page() {
   }
 
   if (!session) {
-    return <p>You are not logged in.</p>
+    return <p>You are not logged in!</p>
   }
 
   return (
